@@ -24,9 +24,12 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let person = "Alice";
+let quantityBought = 5;
+let colorBought = "red";
+let itemsBought = "bicycles";
+let itemsDetail = quantityBought + " " + colorBought + " " + itemsBought;
+let costOfItem = 10000;
+let sillyReciept = person + " bought " + itemsDetail + " for $" + costOfItem + ".";
 
-console.log(d);
+console.log(sillyReciept);
